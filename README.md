@@ -1,7 +1,7 @@
 # Synonlogy-Chat-Patch-Ubuntu-20.04
 Bug fix for Synology Chat on Ubuntu 20.04
 ## How to use
-1. Make sure to install Synology Chat and the binary is in "/opt/Synology Chat"
+1. Make sure to install Synology Chat, and, the binary is in "/opt/Synology Chat"
 2. Execute patch.sh:
 ```
   $ sudo ./patch.sh
@@ -21,7 +21,7 @@ Bug fix for Synology Chat on Ubuntu 20.04
 
 Basically, UI elements and fonts for Synology Chat.
 ## Story
-  This file is created for sharing between my company colleges. But then, one of us reallized that we should give everyone away of what we found. The reason I write this script is that, I just want to automate everything so that everyone can use it without my supervision. I got files from Canonical's ubuntu 18.04 repsitory and extracted the .deb to get just .so files and create symlinks with the script from Herwin's post.
+  This file is created for sharing between my company colleges. But then, one of us reallized that we should give everyone away of what we found. I write this script because, I just want to automate everything so that, everyone can use it without my supervision. I got files from Canonical's ubuntu 18.04 repsitory and extracted the .deb to get just .so files, then, create symlinks with the script from Herwin's post.
 
   I was actually aware at the time that I can just copy both symlinks and the binary and put it to the directory. I was also aware that I can just write a script that extracts the file automatically. However, for simplicity and maintainability, I decided to do everything manulally and put it in a folder that can be easily distinguished from program's essential files.
 
