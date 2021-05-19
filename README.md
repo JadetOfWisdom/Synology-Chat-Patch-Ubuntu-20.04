@@ -11,7 +11,7 @@ Bug fix for Synology Chat on Ubuntu 20.04
   $ sudo chmod +x patch.sh
 ```
 ## What it does?
-1. This script copies ubuntuPatch to "/opt/Synology Chat".
+1. This script copies "ubuntuPatch" directory and it's files to "/opt/Synology Chat".
 2. Then, create symlinks for every files to trick the program into reading those files.
 ## What are these files?
 - libharfbuzz.so.0.10702.0
