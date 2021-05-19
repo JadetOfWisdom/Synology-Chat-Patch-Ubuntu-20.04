@@ -22,7 +22,7 @@ What are these files?
 - libpangocairo-1.0.so.0.4000.14
 - libpangoft2-1.0.so.0.4000.14
 
-  Basically, UI elements and fonts for Synology Chat.
+Basically, UI elements and fonts for Synology Chat.
 
 Story
 ===
