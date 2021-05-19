@@ -1,4 +1,4 @@
-# Synonlogy-Chat-Patch-Ubuntu
+# Synonlogy-Chat-Patch-Ubuntu-20.04
 Bug fix for Synology Chat on Ubuntu 20.04
 
 How to use
