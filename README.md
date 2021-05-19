@@ -17,11 +17,11 @@ Then, create symlinks for every files to trick the program into reading those fi
 
 What are these files?
 ===
-  libharfbuzz.so.0.10702.0
-  libpango-1.0.so.0.4000.14
-  libpangocairo-1.0.so.0.4000.14
-  libpangoft2-1.0.so.0.4000.14
-  
+- libharfbuzz.so.0.10702.0
+- libpango-1.0.so.0.4000.14
+- libpangocairo-1.0.so.0.4000.14
+- libpangoft2-1.0.so.0.4000.14
+
   Basically, UI elements and fonts for Synology Chat.
 
 Story
