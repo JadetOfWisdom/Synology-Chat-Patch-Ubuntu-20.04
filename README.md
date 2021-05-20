@@ -11,14 +11,14 @@ Bug fix for Synology Chat on Ubuntu 20.04
   $ sudo chmod +x patch.sh
 ```
 ## What it does?
-1. This script copies "[ubuntuPatch](ubuntuPatch)" directory and it's files to "/opt/Synology Chat".
+1. This script copies ["ubuntuPatch"](ubuntuPatch) directory and it's files to "/opt/Synology Chat".
 2. Then, create symlinks for every files to trick the program into reading those files.
 ## What are these files?
 They are .so files that I extracted from each of .deb in [Sources](Sources):
-- libharfbuzz.so.0.10702.0
-- libpango-1.0.so.0.4000.14
-- libpangocairo-1.0.so.0.4000.14
-- libpangoft2-1.0.so.0.4000.14
+- [libharfbuzz.so.0.10702.0](ubuntuPatch/libharfbuzz.so.0.10702.0)
+- [libpango-1.0.so.0.4000.14](ubuntuPatch/libpango-1.0.so.0.4000.14)
+- [libpangocairo-1.0.so.0.4000.14](ubuntuPatch/libpangocairo-1.0.so.0.4000.14)
+- [libpangoft2-1.0.so.0.4000.14](ubuntuPatch/libpangoft2-1.0.so.0.4000.14)
 
 Basically, UI elements and fonts for Synology Chat.
 ## Story
